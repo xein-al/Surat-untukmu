@@ -326,6 +326,19 @@ p + p { margin-top: .75rem; }
     .karakter { margin-top: .75rem; }
     .karakter img { max-width: 110px; }
     
+    /* Modal Sesi 3: ruang untuk tombol ✕ sticky */
+    .modal-dialog-compact {
+        padding-top: 3.5rem;
+    }
+    
+    .form-lewati {
+        position: sticky;
+        top: 0.5rem;
+        right: 1rem;
+        z-index: 10;
+        margin-bottom: 1rem;
+    }
+    
     /* Panah di bawah kartu, berjajar (M-1) */
     .kartu-area {
         display: grid;
