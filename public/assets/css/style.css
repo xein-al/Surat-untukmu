@@ -325,8 +325,36 @@ p + p { margin-top: .75rem; }
     .col-kiri { padding: 1rem 0 0; }
     .karakter { margin-top: .75rem; }
     .karakter img { max-width: 110px; }
-    .panah { width: 44px; height: 44px; }
-    .panah:disabled { display: none; }
+    
+    /* Panah di bawah kartu, berjajar (M-1) */
+    .kartu-area {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 1rem;
+    }
+    .kartu-tumpukan {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+    .panah {
+        width: 44px;
+        height: 44px;
+        grid-row: 2;
+    }
+    .panah[data-prev] {
+        grid-column: 1;
+        justify-self: start;
+    }
+    .panah[data-next] {
+        grid-column: 2;
+        justify-self: end;
+    }
+    /* Tetap pakai visibility agar grid tidak collapse */
+    .panah:disabled {
+        visibility: hidden;
+    }
+    
     .kartu { padding: 1.5rem 1.25rem; }
     .js-kartu .pertanyaan-kartu { min-height: 0; }
     .amplop-grid { grid-template-columns: 1fr; }
