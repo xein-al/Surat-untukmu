@@ -109,6 +109,9 @@ p + p { margin-top: .75rem; }
     .input-teks, .textarea-isian { font-size: 16px; }
 }
 .textarea-isian { resize: vertical; min-height: 170px; margin-bottom: .5rem; }
+@media (max-width: 760px) {
+    .textarea-isian { min-height: 120px; }
+}
 .hitung-karakter { text-align: right; font-size: .85rem; color: var(--redup); margin-top: -.25rem; }
 .input-teks:focus, .textarea-isian:focus {
     outline: 3px solid var(--tinta); outline-offset: 2px; border-color: var(--tinta);
@@ -166,6 +169,9 @@ p + p { margin-top: .75rem; }
     padding: .9rem 1rem; background: #fff; border: 2px solid var(--garis); border-radius: var(--radius-input);
     line-height: 1.4; transition: background-color .2s ease, border-color .2s ease;
 }
+@media (max-width: 760px) {
+    .opsi-label { min-height: 48px; }
+}
 .opsi-huruf {
     flex: none; width: 28px; height: 28px; border-radius: 50%;
     display: inline-flex; align-items: center; justify-content: center;
@@ -204,6 +210,9 @@ p + p { margin-top: .75rem; }
     cursor: pointer; text-decoration: none;
 }
 .tombol-tutup-surat { position: absolute; top: 1rem; right: 1rem; }
+@media (max-width: 760px) {
+    .tombol-tutup-surat { position: sticky; top: 0.5rem; right: 1rem; z-index: 10; }
+}
 
 /* ---------- Amplop (F-09, F-10) ---------- */
 
@@ -220,6 +229,9 @@ p + p { margin-top: .75rem; }
     border: 3px solid var(--tinta); border-radius: 18px; color: var(--tinta);
     font-family: var(--font-ui); text-decoration: none; cursor: pointer;
     transition: transform .25s ease, box-shadow .25s ease;
+}
+@media (max-width: 760px) {
+    .amplop { min-height: 160px; }
 }
 /* Tutup amplop (segitiga) */
 .amplop::before {
@@ -250,6 +262,9 @@ p + p { margin-top: .75rem; }
     padding-left: max(3rem, env(safe-area-inset-left)); padding-right: max(3rem, env(safe-area-inset-right));
     padding-bottom: max(3rem, env(safe-area-inset-bottom));
 }
+@media (max-width: 760px) {
+    .modal-surat { padding: 2rem 1.25rem; padding-bottom: max(2rem, env(safe-area-inset-bottom)); }
+}
 .surat-konten { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: start; }
 .surat-kanan { padding-top: 2.5rem; }
 .surat-judul { font-size: 2.5rem; margin-bottom: 1.25rem; }
@@ -267,6 +282,9 @@ p + p { margin-top: .75rem; }
 .polaroid {
     background: #fff; padding: 1rem 1rem 1.5rem; text-align: center;
     box-shadow: 0 6px 16px rgba(0, 0, 0, .15); transform: rotate(2deg);
+}
+@media (max-width: 760px) {
+    .polaroid { transform: none; }
 }
 .polaroid img { display: block; width: 100%; height: auto; }
 .foto-terkunci { padding: 3rem 1rem; color: var(--redup); font-weight: 600; }
@@ -301,7 +319,7 @@ p + p { margin-top: .75rem; }
     .col-kiri { padding: 1rem 0 0; }
     .karakter { margin-top: .75rem; }
     .karakter img { max-width: 110px; }
-    .panah { width: 40px; height: 40px; }
+    .panah { width: 44px; height: 44px; }
     .panah:disabled { display: none; }
     .kartu { padding: 1.5rem 1.25rem; }
     .js-kartu .pertanyaan-kartu { min-height: 0; }
