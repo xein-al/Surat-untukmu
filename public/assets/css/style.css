@@ -37,6 +37,12 @@ body {
     min-height: 100vh;
 }
 
+@supports (height: 100dvh) {
+    body {
+        min-height: 100dvh;
+    }
+}
+
 .bg-pink { background: var(--pink); }
 .bg-lavender { background: var(--lavender); }
 .bg-mint { background: var(--mint); }
@@ -191,7 +197,7 @@ p + p { margin-top: .75rem; }
 }
 
 .modal-dialog-compact {
-    position: relative; width: 100%; max-width: 520px; max-height: 90dvh; max-height: 90vh; overflow-y: auto;
+    position: relative; width: 100%; max-width: 520px; max-height: 90vh; max-height: 90dvh; overflow-y: auto;
     background: var(--krem); border-radius: var(--radius-kartu); padding: 3rem 2rem 2rem;
     box-shadow: 0 12px 40px rgba(0, 0, 0, .25);
     padding-left: max(2rem, env(safe-area-inset-left)); padding-right: max(2rem, env(safe-area-inset-right));
@@ -256,7 +262,7 @@ p + p { margin-top: .75rem; }
 /* ---------- Surat (F-11, F-12, F-13) ---------- */
 
 .modal-surat {
-    position: relative; width: 100%; max-width: 900px; max-height: 92dvh; max-height: 92vh; overflow-y: auto;
+    position: relative; width: 100%; max-width: 900px; max-height: 92vh; max-height: 92dvh; overflow-y: auto;
     background: var(--krem); border-radius: var(--radius-kartu); padding: 3rem;
     box-shadow: 0 12px 40px rgba(0, 0, 0, .25);
     padding-left: max(3rem, env(safe-area-inset-left)); padding-right: max(3rem, env(safe-area-inset-right));
