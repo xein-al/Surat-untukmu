@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Penyihir kecil bersama kucing peliharaannya">
+  <circle cx="100" cy="100" r="95" fill="#f4eeff" stroke="#d1c4ff" stroke-width="3"/>
+  <!-- rambut belakang -->
+  <path d="M42 92 Q36 140 46 160 L114 160 Q124 140 118 92 Z" fill="#2b2f66"/>
+  <!-- jubah -->
+  <path d="M20 188 Q26 150 80 146 Q134 150 140 188 Q80 200 20 188 Z" fill="#1f2a5a"/>
+  <rect x="72" y="128" width="16" height="20" rx="6" fill="#efc2a6"/>
+  <circle cx="80" cy="108" r="32" fill="#f6cdb4"/>
+  <path d="M48 100 Q52 74 80 74 Q108 74 112 100 Q96 86 80 92 Q64 86 48 100 Z" fill="#2b2f66"/>
+  <ellipse cx="80" cy="76" rx="50" ry="10" fill="#1f2a5a"/>
+  <path d="M44 74 Q70 58 84 12 Q90 52 116 74 Q80 82 44 74 Z" fill="#1f2a5a"/>
+  <path d="M46 70 Q80 80 114 70 L112 64 Q80 74 48 64 Z" fill="#e3b84f"/>
+  <circle cx="68" cy="108" r="4.5" fill="#1f2a5a"/><circle cx="92" cy="108" r="4.5" fill="#1f2a5a"/>
+  <circle cx="69.6" cy="106.4" r="1.6" fill="#fff"/><circle cx="93.6" cy="106.4" r="1.6" fill="#fff"/>
+  <path d="M70 121 Q80 129 90 121" stroke="#1f2a5a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="58" cy="117" r="5" fill="#ff9fbe" opacity=".55"/><circle cx="102" cy="117" r="5" fill="#ff9fbe" opacity=".55"/>
+  <!-- kucing -->
+  <path d="M176 176 Q196 160 184 140" stroke="#6b5ca5" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <ellipse cx="150" cy="170" rx="24" ry="20" fill="#6b5ca5"/>
+  <path d="M130 134 L134 114 L146 126 Z M170 134 L166 114 L154 126 Z" fill="#6b5ca5"/>
+  <path d="M133 130 L135 120 L142 127 Z M167 130 L165 120 L158 127 Z" fill="#ffb3d1"/>
+  <circle cx="150" cy="140" r="20" fill="#6b5ca5"/>
+  <circle cx="142" cy="138" r="3.4" fill="#fff"/><circle cx="158" cy="138" r="3.4" fill="#fff"/>
+  <circle cx="142.6" cy="138.4" r="1.8" fill="#1f2a5a"/><circle cx="158.6" cy="138.4" r="1.8" fill="#1f2a5a"/>
+  <path d="M147 146 L153 146 L150 150 Z" fill="#ffb3d1"/>
+  <path d="M150 150 Q146 154 143 152 M150 150 Q154 154 157 152" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <g fill="#e3b84f">
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(30 50)"/>
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(166 60) scale(.75)"/>
+  </g>
+</svg>

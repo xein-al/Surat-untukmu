@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Pahlawan kecil berjubah dengan latar jaring laba-laba">
+  <circle cx="100" cy="100" r="95" fill="#eaf1ff" stroke="#b3c9ff" stroke-width="3"/>
+  <!-- jaring laba-laba -->
+  <g stroke="#b3c9ff" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M100 100 L100 12 M100 100 L162 38 M100 100 L188 100 M100 100 L162 162 M100 100 L100 188 M100 100 L38 162 M100 100 L12 100 M100 100 L38 38"/>
+    <path d="M100 52 L134 66 L148 100 L134 134 L100 148 L66 134 L52 100 L66 66 Z"/>
+    <path d="M100 28 L117 34 L162 38 L166 83 L172 100 L166 117 L162 162 L117 166 L100 172 L83 166 L38 162 L34 117 L28 100 L34 83 L38 38 L83 34 Z" stroke-dasharray="1 0"/>
+  </g>
+  <!-- jubah -->
+  <path d="M62 96 Q44 150 52 182 Q100 168 148 182 Q156 150 138 96 Z" fill="#e3b84f"/>
+  <!-- badan -->
+  <path d="M74 112 Q100 104 126 112 L132 178 Q100 186 68 178 Z" fill="#1f2a5a"/>
+  <!-- lambang laba-laba -->
+  <g fill="#e3b84f"><ellipse cx="100" cy="140" rx="6" ry="8"/><circle cx="100" cy="129" r="4"/></g>
+  <g stroke="#e3b84f" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M94 136 L84 130 M94 141 L83 143 M94 146 L85 154 M106 136 L116 130 M106 141 L117 143 M106 146 L115 154"/>
+  </g>
+  <!-- kepala -->
+  <circle cx="100" cy="82" r="30" fill="#f6cdb4"/>
+  <path d="M68 78 Q72 50 100 50 Q128 50 132 78 Q118 64 100 68 Q82 64 68 78 Z" fill="#2b2f66"/>
+  <!-- topeng -->
+  <path d="M72 82 Q86 74 98 82 Q100 78 102 82 Q114 74 128 82 Q124 98 110 96 Q102 94 100 88 Q98 94 90 96 Q76 98 72 82 Z" fill="#1f2a5a"/>
+  <ellipse cx="88" cy="85" rx="5.5" ry="4" fill="#fff"/><ellipse cx="112" cy="85" rx="5.5" ry="4" fill="#fff"/>
+  <circle cx="88.6" cy="85.2" r="2" fill="#1f2a5a"/><circle cx="112.6" cy="85.2" r="2" fill="#1f2a5a"/>
+  <path d="M90 100 Q100 107 110 100" stroke="#1f2a5a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <g fill="#e3b84f">
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(36 52) scale(.8)"/>
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(168 62) scale(.7)"/>
+  </g>
+</svg>

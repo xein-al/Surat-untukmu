@@ -1,0 +1,21 @@
+# Dipakai di InfinityFree, yang document root-nya htdocs dan tidak bisa diarahkan ke /public.
+# Unggah SELURUH proyek ke htdocs. Semua permintaan dialihkan ke folder public/,
+# sedangkan app/, config/, templates/, database.sql, dan dokumen lain tidak bisa dijangkau dari web.
+# CATATAN: belum diuji di server Apache sungguhan. Uji di tahap 6 (lihat TESTING-CHECKLIST.md).
+
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ public/$1 [L]
+
+# Halaman galat bawaan
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
+# Berkas tersembunyi dan dokumen proyek
+<FilesMatch "^(\.|.*\.(sql|md|example\.php)$)">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>

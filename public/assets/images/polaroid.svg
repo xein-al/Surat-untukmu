@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img" aria-label="Placeholder foto polaroid">
+  <!-- PLACEHOLDER. Ganti dengan foto final dari pemilik [MENUNGGU PEMILIK]. -->
+  <rect width="300" height="360" fill="#fff"/>
+  <rect x="14" y="14" width="272" height="272" fill="#ffeef3"/>
+  <circle cx="150" cy="120" r="46" fill="#ffd0e0"/>
+  <path d="M60 286 Q90 190 150 190 Q210 190 240 286 Z" fill="#f4eeff"/>
+  <g fill="#e3b84f"><path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(70 60) scale(1.4)"/><path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(236 90) scale(1)"/></g>
+</svg>

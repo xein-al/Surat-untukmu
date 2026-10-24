@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Penyihir kecil yang tersenyum">
+  <circle cx="100" cy="100" r="95" fill="#f4eeff" stroke="#d1c4ff" stroke-width="3"/>
+  <!-- rambut belakang -->
+  <path d="M62 92 Q56 140 66 160 L134 160 Q144 140 138 92 Z" fill="#2b2f66"/>
+  <!-- jubah -->
+  <path d="M40 188 Q46 150 100 146 Q154 150 160 188 Q100 200 40 188 Z" fill="#1f2a5a"/>
+  <path d="M100 150 l4 8 9 1 -7 6 2 9 -8-5 -8 5 2-9 -7-6 9-1z" fill="#e3b84f" transform="translate(-3 4)"/>
+  <!-- leher + wajah -->
+  <rect x="92" y="128" width="16" height="20" rx="6" fill="#efc2a6"/>
+  <circle cx="100" cy="108" r="32" fill="#f6cdb4"/>
+  <!-- poni -->
+  <path d="M68 100 Q72 74 100 74 Q128 74 132 100 Q116 86 100 92 Q84 86 68 100 Z" fill="#2b2f66"/>
+  <!-- topi -->
+  <ellipse cx="100" cy="76" rx="50" ry="10" fill="#1f2a5a"/>
+  <path d="M64 74 Q90 58 104 12 Q110 52 136 74 Q100 82 64 74 Z" fill="#1f2a5a"/>
+  <path d="M66 70 Q100 80 134 70 L132 64 Q100 74 68 64 Z" fill="#e3b84f"/>
+  <g fill="#e3b84f"><path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(96 40) scale(.7)"/></g>
+  <!-- wajah -->
+  <circle cx="88" cy="108" r="4.5" fill="#1f2a5a"/><circle cx="112" cy="108" r="4.5" fill="#1f2a5a"/>
+  <circle cx="89.6" cy="106.4" r="1.6" fill="#fff"/><circle cx="113.6" cy="106.4" r="1.6" fill="#fff"/>
+  <path d="M90 121 Q100 129 110 121" stroke="#1f2a5a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="78" cy="117" r="5" fill="#ff9fbe" opacity=".55"/><circle cx="122" cy="117" r="5" fill="#ff9fbe" opacity=".55"/>
+  <!-- bintang -->
+  <g fill="#e3b84f">
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(40 58)"/>
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(160 70) scale(.75)"/>
+    <path d="M0-8 L2.3-2.5 8-2 3.6 1.6 5 7.5 0 4.3-5 7.5-3.6 1.6-8-2-2.3-2.5Z" transform="translate(152 142) scale(.9)"/>
+  </g>
+</svg>

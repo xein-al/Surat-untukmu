@@ -1,0 +1,3 @@
+# NF-S8: Prevent search engine indexing
+User-agent: *
+Disallow: /
